@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrap {
@@ -110,5 +111,28 @@ nav{
 aside {
     width: 35%;
     float: right;
-    background-color: #dddddd;
+}
+
+aside a {
+    overflow: hidden;
+    display: block;
+    clear: both;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+aside h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+aside p {
+    color: #888;
+    margin: 0;
+}
+
+aside img {
+    width: 30%;
+    margin-right: 10px;
 }
