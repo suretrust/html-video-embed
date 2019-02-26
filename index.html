@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  <title>YouTube</title>
+</head>
+<body>
+  
+  <nav>
+    <div class="left">
+      <i class="material-icons" id="menu-icon">menu</i>
+      <a href="index.html" id="logo">
+        <img src="img/youtube-logo.png" alt="YouTube">
+      </a>
+    </div>
+
+    <div class="right">
+      <i class="material-icons">video_call</i>
+      <i class="material-icons">apps</i>
+      <i class="material-icons">add_alert</i>
+    </div>
+
+    <form id="search">
+      <input type="search" name="search" id="search" placeholder="Search">
+      <button type="submit"><i class="material-icons">search</i></button>
+    </form>
+    
+  </nav>
+
+  <div id="content">    
+    <div id="main">
+      <div id="video">
+        <iframe src="https://www.youtube.com/embed/ZnuwB35GYMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <h2>How to embed the right way.</h2>
+      <div class="right" id="views-icons">
+        <i class="material-icons">thumb_up</i> 
+        <i class="material-icons">thumb_down</i>
+        <i class="material-icons">reply<span id="share">SHARE</span></i>
+        <i class="material-icons">playlist_add</i>
+        <i class="material-icons">more_horiz</i>
+      </div>
+      <span class="left" id="views">3,054 Views</span>
+    </div>
+    
+    <aside id="playlist">
+      <a href="#">
+        <div>
+          <h2>Windows</h2>
+          <h3>Saheed</h3>
+          <p>1.4m views</p>
+          <img src="img/thumb-1.jpg" alt="">
+        </div>
+        <div>
+          <h2>YouTube 2</h2>
+          <h3>Jeton</h3>
+          <p>3.4m views</p>
+          <img src="img/thumb-2.png" alt="">
+        </div>
+        <div>
+          <h2>YouTube 3</h2>
+          <h3>Saheed</h3>
+          <p>3.4m views</p>
+          <img src="img/thumb-3.jpg" alt="">
+       </div>
+        
+      </a>
+    </aside>
+  </div>
+
+  <footer></footer>
+</body>
+</html>
