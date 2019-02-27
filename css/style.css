@@ -114,7 +114,6 @@ aside {
 aside a {
     overflow: hidden;
     display: block;
-    clear: both;
     color: #000;
     text-decoration: none;
     margin-bottom: 10px;
@@ -167,4 +166,12 @@ aside img {
 
 #sub-btn span {
     color: wheat;
+}
+
+.links-align {
+    width: 50%;
+}
+
+.playlist-img {
+    
 }
