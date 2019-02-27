@@ -106,26 +106,6 @@ iframe {
     font-size: 16px;
 }
 
-aside {
-    width: 32%;
-    float: right;
-}
-
-aside h4 {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-aside p {
-    color: #888;
-    margin: 0;
-}
-
-aside img {
-    width: 30%;
-    margin-right: 10px;
-}
-
 #uploader {
     clear: both;
     padding-top: 40px;
@@ -160,10 +140,38 @@ aside img {
     color: wheat;
 }
 
-.links-align {
-    width: 50%;
+/* Aside section */
+
+aside {
+    width: 32%;
+    float: right;
 }
 
-.playlist-img {
-    width: 50%;
+.thumbnail {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.thumbnail img {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.links-align {
+    width: 60%;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside h4 {
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+aside p {
+    color: #888;
+    margin: 0;
 }
