@@ -111,14 +111,6 @@ aside {
     float: right;
 }
 
-aside a {
-    overflow: hidden;
-    display: block;
-    color: #000;
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
 aside h4 {
     margin-top: 0;
     margin-bottom: 10px;
@@ -173,5 +165,5 @@ aside img {
 }
 
 .playlist-img {
-    
+    width: 50%;
 }
